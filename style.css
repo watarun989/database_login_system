@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+}
+
+p{
+    margin-left: 20px; 
+}
+
+body{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+    background: #ccc;
+    margin: 20px;
+    padding: 20px;
+    border: #000 solid 1px;
+    border-radius: 10px;
+}
+
+[type="text"]{
+    padding: 10px;
+    /* font-size: 32px; */
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+    margin-right: 20px;
+}
+
+[for="men"],[for="women"]{
+    width: 20px;
+    margin-right: 5px;
+}
+
+[type="radio"]{
+    margin-right: 80px;
+}
+
+h2{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    width: 120px;
+    margin: 0;
+    margin-right: 20px;
+}
+
+[type="submit"]{
+    cursor: pointer;
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
